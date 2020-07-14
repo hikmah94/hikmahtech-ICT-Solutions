@@ -1,0 +1,182 @@
+
+.reg_container
+{
+    position:fixed;
+    right:-300px;
+    z-index:999;
+    top: 255px;
+}
+.reg_container_open .home_register_form
+{
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.home_register_form
+{
+    text-align:left;
+    padding: 20px 20px 20px 24px;
+    /*-webkit-box-shadow: 0px 0 5px rgba(0,0,0,.25);
+    -moz-box-shadow: 0px 0 5px rgba(0,0,0,.25);
+    box-shadow: 0px 0 5px rgba(0,0,0,.25);*/
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-left-radius: 5px;
+    background:#ddd;
+    width: 300px;
+}
+.reg_optionbtn
+{
+    margin:  0 0 0 -34px;
+    padding: 10px 10px;
+    height: 38px;
+    background:#ddd;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float:left;
+   /*-webkit-box-shadow: 0px 0 5px rgba(0,0,0,.25);
+    -moz-box-shadow: 0px 0 5px rgba(0,0,0,.25);
+    box-shadow: 0px 0 5px rgba(0,0,0,.25);*/
+    cursor: pointer;
+}
+.reg_optionbtn .fa-star {
+    color: #fd8b66;
+}
+.optionbtn_open
+{
+    /*margin:0;*/
+    -webkit-box-shadow: 0px 0 5px rgba(0,0,0,0);
+    -moz-box-shadow: 0px 0 5px rgba(0,0,0,0);
+    box-shadow: 0px 0 5px rgba(0,0,0,0);
+}
+.optionbtn_open .fa
+{
+    color: #aaa;
+}
+.reg_whitespace
+{
+    float:left;
+    width:40px;
+    height: 34px;
+    background:#6B6B6B;
+}
+.reg_container .divider-or
+{
+    background: #888;
+    color: #bbb;   
+}
+.reg_container .divider-solid-line
+{
+    border-color: #999;    
+}
+.reg_container .reg-sc-title
+{
+    font-size:12px;
+    margin: 0;
+    color: #eee;
+}
+.reg_container .reg_openbutton
+{
+    height:14px;
+    width: 14px;
+    -webkit-transition: all 0s;
+    -moz-transition: all 0s;
+    -o-transition: all 0s;
+    transition: all 0s;
+}
+.reg_container .reg_openbutton:hover
+{
+    height:14px;
+    width: 14px;
+    -webkit-transition: all 0s;
+    -moz-transition: all 0s;
+    -o-transition: all 0s;
+    transition: all 0s;
+}
+.reg_container .reg_closebutton 
+{
+    height:18px;
+    width: 18px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    background: rgba(255,255,255,.15);
+    cursor: pointer;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.reg_container .reg_closebutton:hover
+{
+    background: rgba(255,255,255,.5);
+    cursor: pointer;
+}
+.social-btn-login-mini
+{
+	-webkit-transition: background-color 100ms linear,color 100ms linear;
+	-moz-transition: background-color 100ms linear,color 100ms linear;
+	-ms-transition: background-color 100ms linear,color 100ms linear;
+	-o-transition: background-color 100ms linear,color 100ms linear;
+	transition: background-color 100ms linear,color 100ms linear;
+	text-transform: capitalize;
+	line-height: normal;
+	text-indent: 0;
+	text-decoration: none;
+	color: #fff !important;
+	width: 280px;
+	-webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+	float: right;
+	font-size: 14px;
+	width:34px;
+	display:inline-block;
+	text-align:left;
+	padding:5px 0;
+	text-align: center;
+}
+.google-btn-login-mini{background:#df4a32; margin-left: 3px}
+.google-btn-login-mini:hover{background:#ef5a43}
+.google-btn-login-mini img{margin:-1px 6px 0 6px}
+.facebook-btn-login-mini{background: #3b5998;height: 24px;}
+.facebook-btn-login-mini:hover{background: #4366ae;}
+.facebook-btn-login-mini img{margin:0px}
+.divider-or {
+    display: inline-block;
+    background: #eee;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: bold;
+    color: #777;
+    text-align: center;
+}
+.divider-solid-line{
+    margin:15px 0;
+    border-bottom:solid 1px #eee;
+    height:1px;
+}
+.reg_container .btn {
+    background: #fd8b66;
+    border-color: #fd8b66;
+    font-weight: 900;
+}
+.reg_container .btn-contact {
+    background: #999;
+    border-color: #999;
+}
